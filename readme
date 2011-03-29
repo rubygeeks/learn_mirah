@@ -1,0 +1,38 @@
+Learning Mirah
+
+#i have rvm installed
+rvm use jruby
+
+jruby -S gem install mirah
+
+
+running your mirah code
+
+mirah hello.mirah
+
+compile the mirah code to class
+mirahc hello.mirah
+
+#
+Parsing...
+  hello.mirah
+Inferring types...
+Compiling...
+  hello.mirah
+Done!
+
+# creates a file Hello.class
+
+running the compiled code
+
+
+java Hello
+# :) required output and super fast
+
+
+
+
+examples which have worked
+
+mirah fractal.mirah
+mirah 

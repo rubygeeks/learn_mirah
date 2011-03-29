@@ -1,0 +1,14 @@
+<project default="jar">
+  <target name="compile">
+    <javac srcdir="." />
+  </target>
+  <target name="jar" depends="compile">
+    <jar destfile="hello.jar"
+         basedir="."
+         includes="**/*.class">
+      <manifest>
+        <attribute name="Main-Class" value="Gui" />
+      </manifest>
+    </jar>
+  </target>
+</project>
