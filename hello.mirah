@@ -3,7 +3,7 @@
 puts "Hello, world!"
 
 def hello(name:String)
-  "Hello, #{name}!"
+  puts "Hello, #{name}!"
 end
 
 
