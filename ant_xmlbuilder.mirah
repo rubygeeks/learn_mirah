@@ -1,4 +1,12 @@
-def ant_xml(project_name:string)
+class JarAntBuilder 
+
+def self.main(argv:String[]):void 
+ #puts "class name " + argv[0] 
+ ant_xml(argv[0])
+end 
+
+
+def self.ant_xml(project_name:string)
 
 puts "<project default=\"jar\">
   <target name=\"compile\">
@@ -17,4 +25,4 @@ puts "<project default=\"jar\">
 
 end
 
-ant_xml('senthil')
+end
