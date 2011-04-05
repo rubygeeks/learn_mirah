@@ -20,6 +20,12 @@ puts command
 Runtime.getRuntime().exec(command);
 end
 
+def self.file_write(filename:string,content:string)
+out = BufferedWriter.new(FileWriter.new(filename));
+    out.write(content);
+    out.close();
+
+end
 
 def self.ant_xml(project_name:string)
 
@@ -38,10 +44,7 @@ antxml= "<project default=\"jar\">
   </target>
 </project>"
 filename = "#{project_name}.xml"
-out = BufferedWriter.new(FileWriter.new(filename));
-    out.write(antxml);
-    out.close();
-puts filename
+file_write(filename,antxml)
 end
 
 end
