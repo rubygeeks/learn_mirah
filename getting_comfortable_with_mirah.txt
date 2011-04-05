@@ -31,3 +31,13 @@ j) port simple code from a known/unknown language into the new language
 k) use popular libraries into your code
 
 l) package code
+
+m) small project
+
+n) contribute to a open source project
+
+o) make a presentation / write a blog
+
+p) take a training session
+
+q) write a book
