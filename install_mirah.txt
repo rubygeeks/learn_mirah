@@ -1,0 +1,40 @@
+
+
+direct install
+download latest files from https://github.com/mirah/mirah/downloads and extract the zip folder, add the bin folder to to your path
+
+with rvm
+
+#if rvm is not installed
+bash < <(curl -B http://rvm.beginrescueend.com/install/rvm)
+or
+curl -L http://rvm.beginrescueend.com/install/rvm -o rvm-installer ; chmod +x rvm-installer ; ./rvm-install latest
+
+rvm notes 
+find any dependency for your OS for running rvm/ruby
+
+install jruby
+rvm install jruby
+
+use the installed jruby
+rvm use jruby
+
+install mirah after initiating the jruby
+gem install mirah 
+#sudo not required when using rvm
+
+Install on mac
+rvm
+direct install
+
+Install on linux
+rvm
+
+direct install
+
+install on windows
+
+direct install
+
+
+
