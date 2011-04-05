@@ -1,0 +1,33 @@
+you need to know following basics to feel comfortable in any language
+
+a) install the language yourself
+
+
+b) hello world
+write, compile, execute
+
+c) basic operations
+get parameters, write methods, simple math operations, control structures
+
+
+d) manipulating strings
+
+e) manipulating files
+read, write, append files
+
+f) date operations
+
+g) array
+
+h) hash
+
+i) create classes and class operations
+
+j) advanced features
+exception handling, features which are exclusive/unique to the language, language limitations, optimizations
+
+j) port simple code from a known/unknown language into the new language
+
+k) use popular libraries into your code
+
+l) package code
